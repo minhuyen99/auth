@@ -1,0 +1,12 @@
+POST http://localhost:5979/auth
+# Content-Type: application/json
+
+###
+
+GET http://localhost:5979
+
+###
+GET http://localhost:5979/auth
+
+###
+POST http://localhost:5979/auth/login
